@@ -8,11 +8,15 @@
 `<rect></rect>`|사각형을 만드는 역할을 한다.
 `<path></path>`|선을 연결하는 역할을 한다.
 
+<br>
+
 ### 1. svg 선택하기
 
 ```js
 const svg = d3.select('svg');
 ```
+
+<br>
 
 ### 2. 속성값 적용하기
 
@@ -24,6 +28,8 @@ svg.attr('속성', '값')
 svg.attr("width", window.innerWidth);
 svg.attr("height", window.innerHeight);
 ```
+
+<br>
 
 ### 3. svg 태그 안에 다른 태그 삽입하기
 ```js
