@@ -42,3 +42,7 @@ svg 말고도 사용 가능하다.
 ```js
 const circle = g.append('circle');
 ```
+
+<br>
+
+데이터 출처: [auto-mpg.csv](https://vizhub.com/)
